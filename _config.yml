@@ -68,7 +68,7 @@ safe: False
 lsi: False
 username: SwapnilPande
 repo: SwapnilPande.github.io
-branch: source
+branch: master
 relative_source: /
 destination: /
 production_url:  https://SwapnilPande.github.io
