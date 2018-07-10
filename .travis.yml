@@ -8,6 +8,7 @@ install:
 script: bundle exec rake site:deploy --quiet
 env:
   global:
+    secure: a4ky7gGRWq/ZDYmmnCCXwUwnKAd7kxVEJlfbk8/qxwZ/iJD/dGlsBzWKG1ViPPPEK5TQ34+ZNo9ByfGdRJgCmh5xxDV/OTyZUL+vPCcTZAILpFUgqCapM7KgY8zCRsPWeBIotFa4wpgXpdrOa+rYANVSTLRG3XvbCdwb62fLmexaemeaWuMHTLiXxL+4p2x4CnNlaCDpkIgacmeZlQ4T64DXdmVTvcuYdZViI3ahAl0z9o7ChGRxALyr1daRH7Rrr8jwxumehhW+8aYlnI6RSGRwxv/floaIp0uREcqr2t1eRgxEjyFpll9VlxVZJPmIyTNbkF5nw3K8UtOf7K4USJ6mAogqf8Oe7pyOOlQan2PiCwoeIlY9KA+avXjtfH0FIs5GfZkKK3/5PTs9D2K1+3j1mamJae99hNsP1gMVGIXNXNQ6jUFR/WM6kmthxjsPf+y04QIMJtW+3e5F8A6gHWOmODn7t8RiJTE8471O+BnwAorYpNgxurRcwDtPm7NUBD0G3IwMwCZkxSY94PN2sXJvFC0MbxzbKIZtxHQ7J0/N+EMCV36sVbbTIBvIOg3SpgYHuATTzD+eaZvErtqtVeuRFT/IWuc+oqDLMGA/z+I9YG6Eq/LzkrRaBE4uJBiojp+GNL22VEO35l1PiNmnoucZRiBsU+pq+ynmXyC6cbY=
 branches:
   only:
   - source
