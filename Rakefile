@@ -72,7 +72,7 @@ namespace :site do
             git add --all .;
             git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
             git remote rm origin
-            git remote add origin https://${GIT_NAME}:${GH_TOKEN}@github.com/#{USERNAME}/#{REPO}/#{DESTINATION_BRANCH}.git
+            git remote add origin https://${GIT_NAME}:${GH_TOKEN}@github.com/#{USERNAME}/#{REPO}.git
             git push --quiet origin #{DESTINATION_BRANCH};
          fi"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
