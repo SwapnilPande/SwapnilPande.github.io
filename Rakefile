@@ -17,7 +17,7 @@ DESTINATION_BRANCH = "master"
 
 def check_destination
   unless Dir.exist? CONFIG["destination"]
-    sh "git clone https://${GIT_NAME}:${GH_TOKEN}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
+    sh "git clone https://#{USERNAME}:${GH_TOKEN}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
   end
 end
 
@@ -71,8 +71,6 @@ namespace :site do
       if [ -n '$(git status)' ]; then
             git add --all .;
             git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
-            git remote rm origin
-            git remote add origin https://${GIT_NAME_TOKEN}@github.com/#{USERNAME}/#{REPO}.git
             git push --quiet origin #{DESTINATION_BRANCH};
          fi"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
