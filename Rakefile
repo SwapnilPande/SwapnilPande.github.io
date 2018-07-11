@@ -59,8 +59,6 @@ namespace :site do
 
     sh "git checkout #{SOURCE_BRANCH}"
     Dir.chdir(CONFIG["destination"]) { sh "git checkout #{DESTINATION_BRANCH}" }
-    sh "git remote rm origin"
-    sh "git remote add origin https://${GIT_NAME}:${GH_TOKEN}@github.com/scuzzlebuzzle/ol3-1.git"
 
     # Generate the site
     sh "bundle exec jekyll build"
@@ -72,6 +70,8 @@ namespace :site do
       sh "if [ -n '$(git status)' ]; then
             git add --all .;
             git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
+            git remote rm origin
+            git remote add origin https://${GIT_NAME}:${GH_TOKEN}@github.com/#{USERNAME}/#{DESTINATION_BRANCH}.git
             git push --quiet origin #{DESTINATION_BRANCH};
          fi"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
