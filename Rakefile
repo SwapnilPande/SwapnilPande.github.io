@@ -59,6 +59,8 @@ namespace :site do
 
     sh "git checkout #{SOURCE_BRANCH}"
     Dir.chdir(CONFIG["destination"]) { sh "git checkout #{DESTINATION_BRANCH}" }
+    sh "git remote rm origin"
+    sh "git remote add origin https://${GIT_NAME}:${GH_TOKEN}@github.com/scuzzlebuzzle/ol3-1.git"
 
     # Generate the site
     sh "bundle exec jekyll build"
