@@ -68,13 +68,11 @@ namespace :site do
     Dir.chdir(CONFIG["destination"]) do
       # check if there is anything to add and commit, and pushes it
       sh "
-      if [ -n '$(git status)' ]; then
             git add --all .;
             git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
             git remote rm origin
             git remote add origin https://${GIT_NAME}:${GH_TOKEN}@github.com/#{USERNAME}/#{REPO}.git
-            git push --quiet origin #{DESTINATION_BRANCH};
-         fi"
+            git push --quiet origin #{DESTINATION_BRANCH};"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
   end
