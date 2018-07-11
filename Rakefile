@@ -67,12 +67,16 @@ namespace :site do
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     Dir.chdir(CONFIG["destination"]) do
       # check if there is anything to add and commit, and pushes it
-      sh "if [ -n '$(git status)' ]; then
+      sh " echo 1
+      if [ -n '$(git status)' ]; then
             git add --all .;
             git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
+            echo 2
             git remote rm origin
             git remote add origin https://${GIT_NAME}:${GH_TOKEN}@github.com/#{USERNAME}/#{DESTINATION_BRANCH}.git
+            echo 3
             git push --quiet origin #{DESTINATION_BRANCH};
+            echo 4
          fi"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
