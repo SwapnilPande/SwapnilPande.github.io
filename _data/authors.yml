@@ -8,7 +8,7 @@ swapnil:
   facebook: False
   twitter: False
   github: SwapnilPande
-  cover: False
+  cover: assets/images/swapnil-cover.jpg
 hannah:
   username: hannah
   name: Hannah Wolfe
