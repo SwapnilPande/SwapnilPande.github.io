@@ -1,4 +1,4 @@
 projects:
   name: projects
-  description: False
-  cover: False
+  description: A collection of the cool projects I've worked on over the years
+  cover: assets/images/projects-cover.jpg
