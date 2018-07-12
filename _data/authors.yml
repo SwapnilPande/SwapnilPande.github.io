@@ -1,12 +1,13 @@
 swapnil:
   username: swapnil
   name: Swapnil Pande
-  location: Nashvilel, TN
-  url_full: http://swapnilpande.me
-  url: swapnilpande.me
+  location: Nashvile, TN
+  url_full: False
+  url: False
   bio: Thinker, Innovator, Dreamer
   picture: assets/images/swapnil.png
   facebook: False
   twitter: False
+  linkedin: swapnilpande
   github: SwapnilPande
   cover: assets/images/swapnil-cover.JPG
