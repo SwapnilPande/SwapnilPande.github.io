@@ -8,26 +8,6 @@
     
       
       <item>
-        <title>Second blog post test</title>
-        
-          <description>&lt;h3 id=&quot;there-are-a-few-things-that-you-should-know-up-front&quot;&gt;There are a few things that you should know up-front:&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That’s who it works best for. If you’re using Ghost for some other purpose, that’s fine too - but it might not be the best choice for you.&lt;/li&gt;
-  &lt;li&gt;The entire platform can be modified and customized to suit your needs, which is very powerful, but doing so &lt;strong&gt;does&lt;/strong&gt; require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog.&lt;/li&gt;
-  &lt;li&gt;For the best experience we recommend downloading the Ghost Desktop App for your computer, which is the best way to access your Ghost site on a desktop device.&lt;/li&gt;
-&lt;/ol&gt;
-
-</description>
-        
-        <pubDate>Tue, 10 Jul 2018 10:00:00 +0000</pubDate>
-        <link>
-        /projects-test</link>
-        <guid isPermaLink="true">/projects-test</guid>
-      </item>
-      
-    
-      
-      <item>
         <title>Welcome to my blog</title>
         
           <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
@@ -38,21 +18,6 @@
         <link>
         /welcome</link>
         <guid isPermaLink="true">/welcome</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Gettysburg Address</title>
-        
-          <description>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 19 Nov 1863 10:18:00 +0000</pubDate>
-        <link>
-        /gettysburg-address</link>
-        <guid isPermaLink="true">/gettysburg-address</guid>
       </item>
       
     
