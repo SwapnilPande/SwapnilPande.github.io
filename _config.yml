@@ -9,7 +9,8 @@ baseurl: /
 
 # Website info
 title: Revision History
-description: A chronicle of projects, experience, thoughts, and ideas\nSwapnil Pande
+description: A chronicle of projects, experiences, thoughts, and ideas
+subdescription: by Swapnil Pande
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
