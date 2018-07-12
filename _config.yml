@@ -8,8 +8,8 @@ language: 'en-uk'
 baseurl: /
 
 # Website info
-title: Swapnil Pande
-description: Thinker, Innovator, Dreamer
+title: Revision History
+description: A chronicle of projects, experience, thoughts, and ideas\nSwapnil Pande
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
