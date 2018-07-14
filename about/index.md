@@ -8,23 +8,23 @@ class: page-template
 subclass: 'post page'
 ---
 
-# What is this website?
-The purpose of this website/blog, as the name suggests, is to record a history of projects, experiences, ideas, and really anything else. The content will span more than just engineering projects. I want this to be a platform for me to share all of my creations, from photography to thoughts about current events to to disccusion about life experiences.
+## What is this website?
+The purpose of this website/blog, as the name suggests, is to record a history of projects, experiences, ideas, and really anything else. The content will span more than just engineering projects. I want this to be a platform for me to share all of my creations, from photography to thoughts about current events to disccusion about life experiences.
 For me personally, I want to document these so that I can see how my projects and thought process evolve with my experience over time. I'm also sharing all of these publicly to give back to the open-source community - to hopefully allow people to build bigger and better things from what I have created. 
 
-# Who am I?
+## Who am I?
 TL;DR My name is Swapnil Pande, I'm an undergraduate at Vanderbilt University (Class of 2020) studying mechanical engineering and computer science. My current area of interest is robotics and autonomy research for mobile robotics. But I also really enjoy rockets, airplanes, cars, machine learning, and sofware design, to list a few. Outside of engineering, I love photography, am currently learning guitar, and dance on the [Vanderbilt BhangraDores](https://www.facebook.com/VanderbiltBhangraDores/?ref=br_rs), an Indian dance team.
 (Is this too long for a TL;DR?)
 
  My interest in these fields started around second grade, when my parents bought me a Lego Robotics Set. Just like most other kids, I  loved playing with Legos, building little creations . But when I saw these Legos come to life, doing the things I had programmed the motors and sensors to do, I was completely hooked. 
 
-Most of my engineering experience comes from projects related to robotics. Some projects are for the various robotics teams that I was on - like building for autonomous capability for a robot competing in the (NASA Robotic Mining Competition)[https://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html]. Others are completely independent, just for random ideas that popped up in my head. The common thread for most of them was that I was usually in way over my head. But I always get a thrill in tackling problems that I had no idea how to solve, in finding new technologies and learning new skills to satisfy a need or solve a new type of problem. 
+Most of my engineering experience comes from projects related to robotics. Some projects are for the various robotics teams that I was on - like building for autonomous capability for a robot competing in the [NASA Robotic Mining Competition](https://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html). Others are completely independent, just for random ideas that popped up in my head. The common thread for most of them was that I was usually in way over my head. But I always get a thrill in tackling problems that I had no idea how to solve, in finding new technologies and learning new skills to satisfy a need or solve a new type of problem. 
 
 While my experience stems from robotics, I can't say that it is definitively my favorite area of engineering. I think it's more accurate to say that I enjoy design in general. The process of making itself, whether its robots or rockets or software packages or circuit boards, is really what gets me excited.
 
 I want to apply my curiousity and love for design to solve bigger and bigger problems. Long-term, my goal is to develop solutions to problems that have a significant impact on peoples' lives, regardless of what form or field that may be in. The ability to make a difference in people's lives, to solve problems plaguing society, is waht keeps me motivated to keep dreaming and growing.
 
-# Why am I making this?
+## Why am I making this?
 My inspiration for building this website was not a "Eureka!" moment, but more of a slow sustained growth. There were many small factors that snowballed into this concept. 
 
 One of the first factors was my growing interest in photography. I wanted to find a platform to share the moments that I capture, but in a more organized fashion than what popular platforms like Instagram allow. I also wasn't looking for a huge social network following, just a way to get them out there and publish them. I had seen plenty of outstanding photography portfolio websites and figured that would be a great place to start.
