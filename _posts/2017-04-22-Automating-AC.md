@@ -18,4 +18,5 @@ Our problem was slightly more nuanced. It wasn't that that we preferred differen
 I, on the other hand, did not prefer either and instead looked to technology to fix the problem.
 
 ### Initial Idea
-My initial idea was simple: build an arduino device that measures the room temperature from a central location and uses a servo to adjust the AC setting to maintain our desired temperature.
+My initial idea was simple: build an arduino device that measures the room temperature from a central location and uses a servo to adjust the AC setting to maintain our desired temperature. The first step was creating an interface between the servo motors and the dials that control the temperature and fan speed on the thermostat. I designed these two parts in CAD and 3D printed them.
+![Control Dial Interfaces](assets/images/automating-ac/control-dials.png)
