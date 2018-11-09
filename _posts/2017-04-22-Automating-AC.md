@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/welcome.jpg
+cover:  assets/images/automating-ac/ac-block-diagram.png
 navigation: True
 title: Automating Dorm Room Air Conditioner
 date: 2017-04-22 10:00:00
@@ -18,4 +18,4 @@ Our problem was slightly more nuanced. It wasn't that that we preferred differen
 I, on the other hand, did not prefer either and instead looked to technology to fix the problem.
 
 ### Initial Idea
-
+My initial idea was simple: build an arduino device that measures the room temperature from a central location and uses a servo to adjust the AC setting to maintain our desired temperature.
