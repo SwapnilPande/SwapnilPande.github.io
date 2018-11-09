@@ -8,16 +8,16 @@
     
       
       <item>
-        <title>Welcome to my blog</title>
+        <title>Automating Dorm Room Air Conditioner</title>
         
-          <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
+          <description>&lt;p&gt;One of the biggest frustrations about sharing a room is the battle over control of the AC - this was one of the biggest point of contention between my freshman year roommates. The problem was not that we preferred different temperatures, but that the thermostat did a terrible job of maintaining a set temperature because of its poor placement in the room. The idea of a comfortable temperature was out of the window. One roommmate preferred that we kept the AC on a full blast constantly, making the room feel like the frozens section in a grocery store. The other roommate wanted us to just leave it off and let the summer heat of Nashville regulate the room temperature (also a terrible alternative).&lt;/p&gt;
 
 </description>
         
-        <pubDate>Thu, 27 Jul 2017 10:00:00 +0000</pubDate>
+        <pubDate>Sat, 22 Apr 2017 10:00:00 +0000</pubDate>
         <link>
-        /welcome</link>
-        <guid isPermaLink="true">/welcome</guid>
+        /Automating-AC</link>
+        <guid isPermaLink="true">/Automating-AC</guid>
       </item>
       
     
