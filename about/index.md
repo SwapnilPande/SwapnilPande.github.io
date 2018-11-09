@@ -9,7 +9,7 @@ subclass: 'post page'
 ---
 
 ## What is this website?
-The purpose of this website/blog, as the name suggests, is to record a history of projects, experiences, ideas, and really anything else. The content will span more than just engineering projects. I want this to be a platform for me to share all of my creations, from photography to thoughts about current events to disccusion about life experiences.
+The purpose of this website/blog, as the name suggests, is to record a history of projects, experiences, ideas, and really anything else. The content will span more than just engineering projects. I want this to be a platform for me to share all of my creations, from photography to thoughts about current events to discussion about life experiences.
 For me personally, I want to document these so that I can see how my projects and thought process evolve with my experience over time. I'm also sharing all of these publicly to give back to the open-source community - to hopefully allow people to build bigger and better things from what I have created. 
 
 ## Who am I?
