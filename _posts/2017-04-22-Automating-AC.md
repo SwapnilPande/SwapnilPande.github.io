@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/automating-ac/ac-block-diagram.png
+cover:  assets/images/automating-ac/ac-block-diagram.PNG
 navigation: True
 title: Automating Dorm Room Air Conditioner
 date: 2017-04-22 10:00:00
