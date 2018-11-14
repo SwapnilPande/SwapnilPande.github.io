@@ -179,7 +179,18 @@ into the {body} of the default.hbs template -->
 
 <p><img src="assets/images/automating-ac/control-dials.png" alt="Control Dial Interfaces"></p>
 
-<p>The holes on these interfaces were designed to fit the servo horns I had with each servo. </p>
+<p>The holes on these interfaces were designed to fit the servo horns I had for each servo. After printing these, I was simply going to control their position using a feedback loop on an Arduino. </p>
+
+<h2 id="Developing it further">Developing it further</h2>
+Around the same time I was conceptualizing this idea, I was brainstorming final project ideas for my instrumentation lab class. The requirements for the project was that it collects data from a sensor and makes some response using an actuator. This idea fit perfectly within the scope of the project, so I combined the two and used the lab resources to finish the project. We were required to use a National Instruments Data Acquistion Board (DAQ) and LabVIEW to collect the sensor data and program the actuator response. To satisfy the requirement, I used the DAQ board to measure the temperature of the room using a thermistor. The DAQ output was fed into a LabVIEW program running on my laptop that calculated the temperature and determined the required AC settings to maintain the setpoint. Since the laptop and DAQ board were located in the middle of the room, I configured the LabVIEW script to send the motor commands to the Arduino over bluetooth. The Arduino was a dumb controller, simply pushing the received commands to the motors.
+
+
+<h2 id="Temperature Measurement">Temperature Measurement</h2>
+
+
+<h2 id="Servo Motor Control">Servo Motor Control</h2>
+
+<h2 id="Bluetooth Communication">Bluetooth Communication</h2>
                 </div>
             </section>
 
