@@ -32,7 +32,7 @@
     <meta property="og:site_name" content="Swapnil Pande - Revision History" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Automating Dorm Room Air Conditioner" />
-    <meta property="og:description" content="One of the biggest frustrations about sharing a room is the battle over control of the AC - who gets to choose the room temperature. This was one of the biggest point of contention between my freshman year roommates. Our problem was slightly more nuanced. It wasn't that that we" />
+    <meta property="og:description" content="One of the frustrations of living with roommates that is rarely mentioned is the battle over the room temperature. This was one of the biggest point of contention between my roommaates in freshman year. Our problem was slightly more nuanced. It wasn't that that we preferred different temperatures, but that" />
     <meta property="og:url" content="/Automating-AC" />
     <meta property="og:image" content="/assets/images/automating-ac/ac-block-diagram.PNG" />
     <meta property="article:publisher" content="https://www.facebook.com/false" />
@@ -42,7 +42,7 @@
     <meta property="article:tag" content="Projects" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Automating Dorm Room Air Conditioner" />
-    <meta name="twitter:description" content="One of the biggest frustrations about sharing a room is the battle over control of the AC - who gets to choose the room temperature. This was one of the biggest point of contention between my freshman year roommates. Our problem was slightly more nuanced. It wasn't that that we" />
+    <meta name="twitter:description" content="One of the frustrations of living with roommates that is rarely mentioned is the battle over the room temperature. This was one of the biggest point of contention between my roommaates in freshman year. Our problem was slightly more nuanced. It wasn't that that we preferred different temperatures, but that" />
     <meta name="twitter:url" content="/" />
     <meta name="twitter:image" content="/assets/images/automating-ac/ac-block-diagram.PNG" />
     <meta name="twitter:label1" content="Written by" />
@@ -74,7 +74,7 @@
         "@type": "WebPage",
         "@id": "/Automating-AC"
     },
-    "description": "One of the biggest frustrations about sharing a room is the battle over control of the AC - who gets to choose the room temperature. This was one of the biggest point of contention between my freshman year roommates. Our problem was slightly more nuanced. It wasn't that that we"
+    "description": "One of the frustrations of living with roommates that is rarely mentioned is the battle over the room temperature. This was one of the biggest point of contention between my roommaates in freshman year. Our problem was slightly more nuanced. It wasn't that that we preferred different temperatures, but that"
 }
     </script>
 
@@ -168,24 +168,31 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p>One of the biggest frustrations about sharing a room is the battle over control of the AC - who gets to choose the room temperature. This was one of the biggest point of contention between my freshman year roommates. </p>
+                    <p>One of the frustrations of living with roommates that is rarely mentioned is the battle over the room temperature. This was one of the biggest point of contention between my roommaates in freshman year. </p>
 
-<p>Our problem was slightly more nuanced. It wasn't that that we preferred different temperatures, but that the thermostat did a terrible job of maintaining a set temperature because of its poor placement in the room. Since the hope of a comfortable room was lost, we regressed to the extremes. One roommmate preferred that we kept the AC on a full blast constantly, making the room feel like the frozens section in a grocery store. The other roommate wanted us to just leave it off and let the summer heat of Nashville regulate the room temperature (also a terrible alternative).</p>
+<p>Our problem was slightly more nuanced. It wasn't that that we preferred different temperatures, but that the thermostat did a terrible job of maintaining a set temperature because of its poor placement in the room. Since the hope of a comfortable temperature was lost, we regressed to the extremes. One roommmate preferred that we kept the AC on a full blast constantly, making the room feel like the frozens section in a grocery store. The other roommate wanted us to just leave it off and let the summer heat of Nashville regulate the room temperature (also a terrible alternative).</p>
 
-<p>I, on the other hand, did not prefer either and instead looked to technology to fix the problem.</p>
+<p>I, on the other hand, I did not prefer either and instead looked to technology to fix the problem.</p>
 
 <h2 id="Initial Idea">Initial Idea</h2>
-<p>My initial idea was simple: build an arduino device that measures the room temperature from a central location and uses a servo to adjust the AC setting to maintain our desired temperature. The first step was creating an interface between the servo motors and the dials that control the temperature and fan speed on the thermostat. I designed these two parts in CAD and 3D printed them.</p>
+<p>My initial idea was simple: build a simple controller using an Arduino that measures the room temperature from a central location and uses a servo to adjust the AC setting to maintain our desired temperature. The first step was creating an interface between the servo motors and the dials that control the temperature and fan speed on the thermostat. I designed these two parts in CAD and 3D printed them.</p>
 
 <p><img src="assets/images/automating-ac/control-dials.png" alt="Control Dial Interfaces"></p>
 
 <p>The holes on these interfaces were designed to fit the servo horns I had for each servo. After printing these, I was simply going to control their position using a feedback loop on an Arduino. </p>
 
 <h2 id="Developing it further">Developing it further</h2>
-Around the same time I was conceptualizing this idea, I was brainstorming final project ideas for my instrumentation lab class. The requirements for the project was that it collects data from a sensor and makes some response using an actuator. This idea fit perfectly within the scope of the project, so I combined the two and used the lab resources to finish the project. We were required to use a National Instruments Data Acquistion Board (DAQ) and LabVIEW to collect the sensor data and program the actuator response. To satisfy the requirement, I used the DAQ board to measure the temperature of the room using a thermistor. The DAQ output was fed into a LabVIEW program running on my laptop that calculated the temperature and determined the required AC settings to maintain the setpoint. Since the laptop and DAQ board were located in the middle of the room, I configured the LabVIEW script to send the motor commands to the Arduino over bluetooth. The Arduino was a dumb controller, simply pushing the received commands to the motors.
+<p></p>Around the same time I was conceptualizing this idea, I was brainstorming final project ideas for my Instrumentation Lab class. This idea fit perfectly within the requirements of the project, so I combined the two and used the lab resources to design the system. I used a National Instruments Data Acquistion Board (DAQ) and LabVIEW (per the project requirements) to collect the sensor data. The DAQ output was fed into a LabVIEW program running on my laptop that calculated the temperature and determined the required AC settings to maintain the setpoint. Since the laptop and DAQ board were located in the middle of the room, I configured the LabVIEW script to send the motor commands to the Arduino over bluetooth. The Arduino simply received the commands and rotated the motors to the desired position. </p>
 
+<h2 id="Finished Setup">Finished Setup</h2>
+After a few sleepless nights of debugging, the system actually worked and regulated the temperature properly.
 
-<h2 id="Temperature Measurement">Temperature Measurement</h2>
+<<figure>
+        <img src="assets/images/automating-ac/control-dials.png" alt="Control Dial Interfaces" />
+        <figcaption>
+        AC dial</a>
+        </figcaption>
+</figure>
 
 
 <h2 id="Servo Motor Control">Servo Motor Control</h2>
@@ -299,7 +306,7 @@ Around the same time I was conceptualizing this idea, I was brainstorming final 
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="/">Swapnil Pande - Revision History</a> &copy; 2018</section>
+                <section class="copyright"><a href="/">Swapnil Pande - Revision History</a> &copy; 2019</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
