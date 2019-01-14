@@ -25,17 +25,28 @@ author: swapnil
 <p>The holes on these interfaces were designed to fit the servo horns I had for each servo. After printing these, I was simply going to control their position using a feedback loop on an Arduino. </p>
 
 <h2 id="Developing it further">Developing it further</h2>
-<p></p>Around the same time I was conceptualizing this idea, I was brainstorming final project ideas for my Instrumentation Lab class. This idea fit perfectly within the requirements of the project, so I combined the two and used the lab resources to design the system. I used a National Instruments Data Acquistion Board (DAQ) and LabVIEW (per the project requirements) to collect the sensor data. The DAQ output was fed into a LabVIEW program running on my laptop that calculated the temperature and determined the required AC settings to maintain the setpoint. Since the laptop and DAQ board were located in the middle of the room, I configured the LabVIEW script to send the motor commands to the Arduino over bluetooth. The Arduino simply received the commands and rotated the motors to the desired position. </p>
+<p>Around the same time I was conceptualizing this idea, I was brainstorming final project ideas for my Instrumentation Lab class. This idea fit perfectly within the requirements of the project, so I combined the two and used the lab resources to design the system. I used a National Instruments Data Acquistion Board (DAQ) and LabVIEW (per the project requirements) to collect the sensor data. The DAQ output was fed into a LabVIEW program running on my laptop that calculated the temperature and determined the required AC settings to maintain the setpoint. Since the laptop and DAQ board were located in the middle of the room, I configured the LabVIEW script to send the motor commands to the Arduino over bluetooth. The Arduino simply received the commands and rotated the motors to the desired position. </p>
 
 <h2 id="Finished Setup">Finished Setup</h2>
-After a few sleepless nights of debugging, the system actually worked and regulated the temperature properly.
+<p>After a few sleepless nights of debugging, the system actually worked and regulated the room temperature. These are pictures of the thermistor measurement circuit, AC control circuit, and AC controller interface, in that order.</p>
 
-<<figure>
-        <img src="assets/images/automating-ac/control-dials.png" alt="Control Dial Interfaces" />
-        <figcaption>
-        AC dial</a>
-        </figcaption>
-</figure>
+<p><img src="assets/images/automating-ac/circuit-thermistor.png" alt="Thermistor measurement circuit"></p>
+<p><img src="assets/images/automating-ac/circuit-ac-control.png" alt="AC Control circuit"></p>
+<p><img src="assets/images/automating-ac/ac-controller.png" alt="Control Interface for AC"></p>
+
+<p>Every 15 minutes or so, the controller would turn the AC on and cool the room until it was just below the desired temperature. It functioned well enough to maintain the room within 1 degree celsius of the desired temperature. For the final report for the class, I also analyzed the reduction in energy consumption as a result of using this controller. Compared to our default of leaving the AC on constantly, the new controller used 37% less energy - a sizable improvement for such a simple system. </p>
+    
+<p> However, there was one big problem - it was rather noisy. The servos were loud enough to wake up my roommates every time they changed the settings (a problem likely worse than the original). Instead of the praise I expected for solving the temperature problem, I only received complaints about how annoying it was. Therefore, before I could add any additional features, I had to take it down.  </p>
+
+<h2 id="Future Improvements">Future Improvements</h2>
+
+<p>If I had more time to work on this controller, I had a few features in mind to improve it further. This controller was a very powerful tool - it provided a digital interface to control the AC unit in the room. That opens a world of possibilities to write a software stack to change the way the AC is controlled. One feature my roommmates requested (before they decided it was annoying) was control of the AC over the Internet so that they didn't have to get out of bed to change the settings. I also wanted to create a routine to change the temperature throughout the day based on all of our schedules. To improve the efficiency of the air conditioner, the controller could modify the agressiveness of the cooling/heating to reduce the amount of time the AC is running. And furthermore, this could all be automated using machine learning so the control will learn and improve over time. The potential for growth was endless.</p>
+
+<p>In the end of it all, we went back to alternately freezing and burning for the rest of the semester. Even though it didn't solve the problem in the end, I loved every minute of hacking together the solution. In my mind, the value of it came from the actual design of the system rather than its final functionality. </p>
+    
+<p> When I moved into my new dorm the following year, I was relieved to find a thermostat in my room that actually worked properly. </p>
+
+
 
 
 <h2 id="Servo Motor Control">Servo Motor Control</h2>
