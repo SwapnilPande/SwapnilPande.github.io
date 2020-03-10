@@ -8,9 +8,9 @@ language: 'en-uk'
 baseurl: /
 
 # Website info
-title: Swapnil Pande - Revision History
-description: A chronicle of projects, experiences, thoughts, and ideas
-subdescription: by Swapnil Pande
+title: 'Swapnil Pande - Revision History'
+description: 'A chronicle of projects, experiences, thoughts, and ideas'
+subdescription: 'by Swapnil Pande'
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
