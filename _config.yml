@@ -3,6 +3,7 @@ markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number
 language: 'en-uk'
+words_per_minute: 180
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
@@ -17,6 +18,7 @@ logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 production_url: https://SwapnilPande.github.io
 source_url: https://SwapnilPande.github.io
+CNAME: swapnilpande.me
 
 # Social info
 navigation: True # show the navbar links
@@ -44,6 +46,7 @@ permalink: /:title
 # Tags' info in `_data/tags_info.yml`
 
 # gems and other configs
+plugins_dir: [_plugins]
 plugins: [jekyll-paginate, jekyll-feed]
 
 feed:
@@ -88,6 +91,7 @@ exclude:
   - gulpfile.js
   - LICENSE
   - package.json
+  - package-lock.json
   - Rakefile
   - README.md
   - script.py
