@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-28T18:47:35+00:00</updated><id>/</id><title type="html">Swapnil Pande - Revision History</title><subtitle>A chronicle of projects, experiences, thoughts, and ideas</subtitle><entry><title type="html">Chessbot, Part 1: Introduction and Motivation</title><link href="/chessbot-intro" rel="alternate" type="text/html" title="Chessbot, Part 1: Introduction and Motivation" /><published>2017-05-01T08:00:00+00:00</published><updated>2017-05-01T08:00:00+00:00</updated><id>/chessbot-intro</id><content type="html" xml:base="/chessbot-intro">&lt;p&gt;In my spring semester of junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple: make something cool. Since I have always been interested in developing intelligence for robotic applications, I figured this would be the perfect opportunity to combine the skill sets I had learned from both classes to make a combined project. In isolation, both of these subject areas alone allow for some neat inventions. However, the intersection of the two allows for seriously powerful, intelligent, and useful creations.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-28T18:57:11+00:00</updated><id>/</id><title type="html">Swapnil Pande - Revision History</title><subtitle>A chronicle of projects, experiences, thoughts, and ideas</subtitle><entry><title type="html">Chessbot, Part 1: Introduction and Motivation</title><link href="/chessbot-intro" rel="alternate" type="text/html" title="Chessbot, Part 1: Introduction and Motivation" /><published>2017-05-01T08:00:00+00:00</published><updated>2017-05-01T08:00:00+00:00</updated><id>/chessbot-intro</id><content type="html" xml:base="/chessbot-intro">&lt;p&gt;In my spring semester of junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple: make something cool. Since I have always been interested in developing intelligence for robotic applications, I figured this would be the perfect opportunity to combine the skill sets I had learned from both classes to make a combined project. In isolation, both of these subject areas alone allow for some neat inventions. However, the intersection of the two allows for seriously powerful, intelligent, and useful creations.&lt;/p&gt;
 
 &lt;p&gt;When I embarked on this project, I wanted to make it something huge. It was more than a class project to me - it was a way to push my design skills to the limits and put myself in a situation in which I was constantly learning. In my years of robotics competitions, I have developed plenty of experience in designing mechatronic systems. Additionally, I have been studying and working on machine learning and robot intelligence for the majority of college. Therefore, I wouldn't learn anything from just meeting the bare requirements of each of the projects. So instead, I set my personal standards for the projects much higher than the class requirements, to a level I knew I would struggle to accomplish in the 1 month timeframe of the project&lt;/p&gt;
 
@@ -25,7 +25,10 @@
 &lt;h2 id=&quot;Initial Idea&quot;&gt;Initial Idea&lt;/h2&gt;
 &lt;p&gt;My initial idea was simple: build a simple controller using an Arduino that measures the room temperature from a central location and uses a servo to adjust the AC setting to maintain our desired temperature. The first step was creating an interface between the servo motors and the dials that control the temperature and fan speed on the thermostat. I designed these two parts in CAD and 3D printed them.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/automating-ac/control-dials.png&quot; alt=&quot;Control Dial Interfaces&quot;&gt;&lt;/p&gt;
+&lt;figure class = &quot;post-figure&quot;&gt;
+    &lt;img src=&quot;assets/images/automating-ac/control-dials.png&quot; alt=&quot;Control Dial Interfaces&quot; style=&quot;width:80%&quot;&gt;
+    &lt;figcaption&gt;Left: Fan Speed Dial Interface, Right: Temperature Dial Interface&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;The holes on these interfaces were designed to fit the servo horns I had for each servo. After printing these, I was simply going to control their position using a feedback loop on an Arduino. &lt;/p&gt;
 
@@ -35,9 +38,20 @@
 &lt;h2 id=&quot;Finished Setup&quot;&gt;Finished Setup&lt;/h2&gt;
 &lt;p&gt;After a few sleepless nights of debugging, the system actually worked and regulated the room temperature. These are pictures of the thermistor measurement circuit, AC control circuit, and AC controller interface, in that order.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/automating-ac/circuit-thermistor.png&quot; alt=&quot;Thermistor measurement circuit&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;assets/images/automating-ac/circuit-ac-control.png&quot; alt=&quot;AC Control circuit&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;assets/images/automating-ac/ac-controller.png&quot; alt=&quot;Control Interface for AC&quot;&gt;&lt;/p&gt;
+&lt;figure class = &quot;post-figure&quot;&gt;
+    &lt;img src=&quot;assets/images/automating-ac/circuit-thermistor.png&quot; alt=&quot;Thermistor Temperature Measurement Circuit&quot; style=&quot;width:80%&quot;&gt;
+    &lt;figcaption&gt;Thermistor Temperature Measurement Circuit&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class = &quot;post-figure&quot;&gt;
+    &lt;img src=&quot;assets/images/automating-ac/circuit-ac-control.png&quot; alt=&quot;AC Control circuit&quot; style=&quot;width:80%&quot;&gt;
+    &lt;figcaption&gt;AC Control circuit&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class = &quot;post-figure&quot;&gt;
+    &lt;img src=&quot;assets/images/automating-ac/ac-controller.png&quot; alt=&quot;Control Interface for AC&quot; style=&quot;width:80%&quot;&gt;
+    &lt;figcaption&gt;Control Interface for AC&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;Every 15 minutes or so, the controller would turn the AC on and cool the room until it was just below the desired temperature. It functioned well enough to maintain the room within 1 degree celsius of the desired temperature. For the final report for the class, I also analyzed the reduction in energy consumption of the AC when using this controller. Compared to our default of leaving the AC on constantly, the new controller used 37% less energy - a sizable improvement for such a simple system. &lt;/p&gt;
 
