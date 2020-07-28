@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-07-28T17:10:58+00:00</updated><id>/</id><title type="html">Swapnil Pande - Revision History</title><subtitle>A chronicle of projects, experiences, thoughts, and ideas</subtitle><entry><title type="html">Chessbot, Part 1: Introduction and Motivation</title><link href="/chessbot-intro" rel="alternate" type="text/html" title="Chessbot, Part 1: Introduction and Motivation" /><published>2017-05-01T08:00:00+00:00</published><updated>2017-05-01T08:00:00+00:00</updated><id>/chessbot-intro</id><content type="html" xml:base="/chessbot-intro">&lt;p&gt;In my spring semester of junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple: make something cool. Since I have always been interested in developing intelligence for robotic applications, I figured this would be the perfect opportunity to combine the skill sets I had learned from both classes to make a combined project. In isolation, both of these subject areas alone allow for some neat inventions. However, the intersection of the two allows for seriously powerful, intelligent, and useful creations.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/author/swapnil/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2020-07-28T17:10:58+00:00</updated>
+  <id>/author/swapnil/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Swapnil Pande - Revision History | </title>
+  
+
+  
+    <subtitle>A chronicle of projects, experiences, thoughts, and ideas</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Chessbot, Part 1: Introduction and Motivation</title>
+      <link href="/chessbot-intro" rel="alternate" type="text/html" title="Chessbot, Part 1: Introduction and Motivation" />
+      <published>2017-05-01T08:00:00+00:00</published>
+      <updated>2017-05-01T08:00:00+00:00</updated>
+      <id>/chessbot-intro</id>
+      <content type="html" xml:base="/chessbot-intro">&lt;p&gt;In my spring semester of junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple: make something cool. Since I have always been interested in developing intelligence for robotic applications, I figured this would be the perfect opportunity to combine the skill sets I had learned from both classes to make a combined project. In isolation, both of these subject areas alone allow for some neat inventions. However, the intersection of the two allows for seriously powerful, intelligent, and useful creations.&lt;/p&gt;
 
 &lt;p&gt;When I embarked on this project, I wanted to make it something huge. It was more than a class project to me - it was a way to push my design skills to the limits and put myself in a situation in which I was constantly learning. In my years of robotics competitions, I have developed plenty of experience in designing mechatronic systems. Additionally, I have been studying and working on machine learning and robot intelligence for the majority of college. Therefore, I wouldn't learn anything from just meeting the bare requirements of each of the projects. So instead, I set my personal standards for the projects much higher than the class requirements, to a level I knew I would struggle to accomplish in the 1 month timeframe of the project&lt;/p&gt;
 
@@ -18,7 +57,43 @@
 
 &lt;p&gt;This structure provides multiple advantages. Firstly, with defined requirements, there are clear goals to &quot;complete&quot; each subsystem, allowing me to quantify the progress on each system clearly throughout the design process. Additionally, since all of the interfaces were well defined, I could develop all of the systems in parallel and simulate the inputs to each system. As a result, I could develop the layers of the technology stack in parallel instead of serially, which would have taken longer than 1 month due to the lead time for mechanical components and the training time required for neural networks. Furthermore, this allowed me to test each system in isolation, making the debugging process much faster. &lt;/p&gt;
 
-&lt;p&gt;The next articles in this series cover the design process for each of these subomponents in more detail. Stay tuned for more ChessBot updates!&lt;/p&gt;</content><author><name>Swapnil Pande</name></author><category term="projects" /><category term="chessbot" /><summary type="html">In my spring semester of junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple: make something cool. Since I have always been interested in developing intelligence for robotic applications, I figured this would be the perfect opportunity to combine the skill sets I had learned from both classes to make a combined project. In isolation, both of these subject areas alone allow for some neat inventions. However, the intersection of the two allows for seriously powerful, intelligent, and useful creations.</summary></entry><entry><title type="html">Automating Dorm Room Air Conditioner</title><link href="/Automating-AC" rel="alternate" type="text/html" title="Automating Dorm Room Air Conditioner" /><published>2017-04-22T10:00:00+00:00</published><updated>2017-04-22T10:00:00+00:00</updated><id>/Automating-AC</id><content type="html" xml:base="/Automating-AC">&lt;p&gt;One of the frustrations of living with roommates that is rarely talkd about is the battle over the room temperature. This was one of the biggest point of contention between my roommaates in freshman year. &lt;/p&gt;
+&lt;p&gt;The next articles in this series cover the design process for each of these subomponents in more detail. Stay tuned for more ChessBot updates!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Swapnil Pande</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="projects" />
+      
+        <category term="chessbot" />
+      
+
+      
+        <summary type="html">In my spring semester of junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple: make something cool. Since I have always been interested in developing intelligence for robotic applications, I figured this would be the perfect opportunity to combine the skill sets I had learned from both classes to make a combined project. In isolation, both of these subject areas alone allow for some neat inventions. However, the intersection of the two allows for seriously powerful, intelligent, and useful creations.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Automating Dorm Room Air Conditioner</title>
+      <link href="/Automating-AC" rel="alternate" type="text/html" title="Automating Dorm Room Air Conditioner" />
+      <published>2017-04-22T10:00:00+00:00</published>
+      <updated>2017-04-22T10:00:00+00:00</updated>
+      <id>/Automating-AC</id>
+      <content type="html" xml:base="/Automating-AC">&lt;p&gt;One of the frustrations of living with roommates that is rarely talkd about is the battle over the room temperature. This was one of the biggest point of contention between my roommaates in freshman year. &lt;/p&gt;
 
 &lt;p&gt;However, our problem was slightly more nuanced. It wasn't that that we preferred different temperatures, but that the thermostat did a terrible job of maintaining a set temperature because of its poor placement in the room. Since the hope of a comfortable temperature was lost, we regressed to the extremes. One roommmate preferred that we kept the AC on a full blast constantly, making the room feel like the frozens section in a grocery store. The other roommate wanted us to just leave it off and let the summer heat of Nashville regulate the room temperature (also a terrible alternative). I, on the other hand, I did not prefer either and instead looked to technology to fix the problem.&lt;/p&gt;
 
@@ -49,4 +124,32 @@
 
 &lt;p&gt;In the end of it all, we went back to alternately freezing and burning for the rest of the semester. Even though it didn't end up solving the problem, I loved every minute of hacking together the solution. In my mind, the value of it came from the actual design process rather than the final functionality. &lt;/p&gt;
 
-&lt;p&gt; When I moved into my new dorm the following year, I was relieved to find a thermostat in my room that actually worked properly. &lt;/p&gt;</content><author><name>Swapnil Pande</name></author><category term="projects" /><summary type="html">One of the frustrations of living with roommates that is rarely talkd about is the battle over the room temperature. This was one of the biggest point of contention between my roommaates in freshman year.</summary></entry></feed>
+&lt;p&gt; When I moved into my new dorm the following year, I was relieved to find a thermostat in my room that actually worked properly. &lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Swapnil Pande</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="projects" />
+      
+
+      
+        <summary type="html">One of the frustrations of living with roommates that is rarely talkd about is the battle over the room temperature. This was one of the biggest point of contention between my roommaates in freshman year.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

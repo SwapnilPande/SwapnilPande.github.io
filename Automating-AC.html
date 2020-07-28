@@ -22,6 +22,17 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
 
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="A chronicle of projects, experiences, thoughts, and ideas" />
     <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png" />
@@ -113,7 +124,7 @@ into the {body} of the default.hbs template -->
             <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
     <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
-    <li class="nav-getting-started" role="menuitem"><a href="/tag/projects/">Projects</a></li>
+    <li class="nav-getting-started" role="menuitem"><a href="/tag/getting-started/">Getting Started</a></li>
 </ul>
 
         
@@ -144,7 +155,7 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full post tag-projects ">
+        <article class="post-full  tag-projects post tag-projects ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
@@ -153,7 +164,7 @@ into the {body} of the default.hbs template -->
                         <span class="date-divider">/</span>
                         
                             
-                               <a href='/tag/projects/'>PROJECTS</a>
+                                <a href='/tag/projects/'>PROJECTS</a>
                             
                         
                     
@@ -190,15 +201,15 @@ into the {body} of the default.hbs template -->
 <p><img src="assets/images/automating-ac/ac-controller.png" alt="Control Interface for AC"></p>
 
 <p>Every 15 minutes or so, the controller would turn the AC on and cool the room until it was just below the desired temperature. It functioned well enough to maintain the room within 1 degree celsius of the desired temperature. For the final report for the class, I also analyzed the reduction in energy consumption of the AC when using this controller. Compared to our default of leaving the AC on constantly, the new controller used 37% less energy - a sizable improvement for such a simple system. </p>
-    
+
 <p> However, there was one big problem - it was very noisy. The servos were actually loud enough to wake up my roommates every time they changed the settings (a problem actually worse than the original). Instead of the praise I expected for solving the temperature problem, I only received complaints about how annoying it was. Therefore, before I could add any additional features, I had to take it down.  </p>
 
-<h2 id="Furth Improvements">Further Improvements</h2>
+<h2 id="Further Improvements">Further Improvements</h2>
 
 <p>If I had more time to work on this controller, I had a few features in mind to improve it further. At it's core, this controller provides a software interface to control the room air conditioner - a very powerful tool that opens a world of possibilities to change the control logic for the AC. One feature my roommmates requested (before they decided it was annoying) was control of the AC over the Internet so that they could change the settings without ever leaving the comfort of their beds. I also wanted to create a routine to change the temperature throughout the day based on all of our schedules. To improve the efficiency of the air conditioner, the controller could modify the agressiveness of the cooling/heating to reduce the amount of time the AC is running based on weather data pulled in from the Internet. And furthermore, this could all be automated using machine learning so the controller learns and improves over time. The potential for growth was endless.</p>
 
 <p>In the end of it all, we went back to alternately freezing and burning for the rest of the semester. Even though it didn't end up solving the problem, I loved every minute of hacking together the solution. In my mind, the value of it came from the actual design process rather than the final functionality. </p>
-    
+
 <p> When I moved into my new dorm the following year, I was relieved to find a thermostat in my room that actually worked properly. </p>
 
                 </div>
@@ -283,7 +294,7 @@ into the {body} of the default.hbs template -->
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="/tag/projects/">
+                            <a href="/tag/projects/"></a>
                                 
                                     See all 1 posts  →
                                 
@@ -320,7 +331,9 @@ into the {body} of the default.hbs template -->
                     <h2 class="post-card-title">Chessbot, Part 1: Introduction and Motivation</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>In my spring semester of junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple:</p>
+                    
+                        <p></p>
+                    
                 </section>
             </a>
             <footer class="post-card-meta">
@@ -334,6 +347,12 @@ into the {body} of the default.hbs template -->
                         </span>
                     
                 
+                <span class="reading-time">
+                    
+                    
+                        1 min read
+                    
+                </span>
             </footer>
         </div>
     </article>
