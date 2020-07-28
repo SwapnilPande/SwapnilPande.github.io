@@ -6,8 +6,12 @@ rvm:
 install:
   # Install Jekyll and dependencies
   - bundle install
+  - npm install
 
-script: bundle exec rake site:deploy --quiet #--trace
+
+script:
+  - gulp
+  - bundle exec rake site:deploy --quiet #--trace
 
 branches:
   only:
