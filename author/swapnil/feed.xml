@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/author/swapnil/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2020-07-28T18:57:11+00:00</updated>
+  <updated>2020-07-28T19:01:56+00:00</updated>
   <id>/author/swapnil/feed.xml</id>
 
   
@@ -101,7 +101,7 @@
 &lt;p&gt;My initial idea was simple: build a simple controller using an Arduino that measures the room temperature from a central location and uses a servo to adjust the AC setting to maintain our desired temperature. The first step was creating an interface between the servo motors and the dials that control the temperature and fan speed on the thermostat. I designed these two parts in CAD and 3D printed them.&lt;/p&gt;
 
 &lt;figure class = &quot;post-figure&quot;&gt;
-    &lt;img src=&quot;assets/images/automating-ac/control-dials.png&quot; alt=&quot;Control Dial Interfaces&quot; style=&quot;width:80%&quot;&gt;
+    &lt;img src=&quot;assets/images/automating-ac/control-dials.png&quot; alt=&quot;Control Dial Interfaces&quot;&gt;
     &lt;figcaption&gt;Left: Fan Speed Dial Interface, Right: Temperature Dial Interface&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -114,17 +114,17 @@
 &lt;p&gt;After a few sleepless nights of debugging, the system actually worked and regulated the room temperature. These are pictures of the thermistor measurement circuit, AC control circuit, and AC controller interface, in that order.&lt;/p&gt;
 
 &lt;figure class = &quot;post-figure&quot;&gt;
-    &lt;img src=&quot;assets/images/automating-ac/circuit-thermistor.png&quot; alt=&quot;Thermistor Temperature Measurement Circuit&quot; style=&quot;width:80%&quot;&gt;
+    &lt;img src=&quot;assets/images/automating-ac/circuit-thermistor.png&quot; alt=&quot;Thermistor Temperature Measurement Circuit&quot;&gt;
     &lt;figcaption&gt;Thermistor Temperature Measurement Circuit&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure class = &quot;post-figure&quot;&gt;
-    &lt;img src=&quot;assets/images/automating-ac/circuit-ac-control.png&quot; alt=&quot;AC Control circuit&quot; style=&quot;width:80%&quot;&gt;
+    &lt;img src=&quot;assets/images/automating-ac/circuit-ac-control.png&quot; alt=&quot;AC Control circuit&quot;&gt;
     &lt;figcaption&gt;AC Control circuit&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure class = &quot;post-figure&quot;&gt;
-    &lt;img src=&quot;assets/images/automating-ac/ac-controller.png&quot; alt=&quot;Control Interface for AC&quot; style=&quot;width:80%&quot;&gt;
+    &lt;img src=&quot;assets/images/automating-ac/ac-controller.png&quot; alt=&quot;Control Interface for AC&quot;&gt;
     &lt;figcaption&gt;Control Interface for AC&lt;/figcaption&gt;
 &lt;/figure&gt;
 
