@@ -18,7 +18,10 @@ author: swapnil
 <h2 id="Initial Idea">Initial Idea</h2>
 <p>My initial idea was simple: build a simple controller using an Arduino that measures the room temperature from a central location and uses a servo to adjust the AC setting to maintain our desired temperature. The first step was creating an interface between the servo motors and the dials that control the temperature and fan speed on the thermostat. I designed these two parts in CAD and 3D printed them.</p>
 
-<p><img src="assets/images/automating-ac/control-dials.png" alt="Control Dial Interfaces"></p>
+<figure class = "post-figure">
+    <img src="assets/images/automating-ac/control-dials.png" alt="Control Dial Interfaces" style="width:80%">
+    <figcaption>Left: Fan Speed Dial Interface, Right: Temperature Dial Interface</figcaption>
+</figure>
 
 <p>The holes on these interfaces were designed to fit the servo horns I had for each servo. After printing these, I was simply going to control their position using a feedback loop on an Arduino. </p>
 
@@ -28,9 +31,20 @@ author: swapnil
 <h2 id="Finished Setup">Finished Setup</h2>
 <p>After a few sleepless nights of debugging, the system actually worked and regulated the room temperature. These are pictures of the thermistor measurement circuit, AC control circuit, and AC controller interface, in that order.</p>
 
-<p><img src="assets/images/automating-ac/circuit-thermistor.png" alt="Thermistor measurement circuit"></p>
-<p><img src="assets/images/automating-ac/circuit-ac-control.png" alt="AC Control circuit"></p>
-<p><img src="assets/images/automating-ac/ac-controller.png" alt="Control Interface for AC"></p>
+<figure class = "post-figure">
+    <img src="assets/images/automating-ac/circuit-thermistor.png" alt="Thermistor Temperature Measurement Circuit" style="width:80%">
+    <figcaption>Thermistor Temperature Measurement Circuit</figcaption>
+</figure>
+
+<figure class = "post-figure">
+    <img src="assets/images/automating-ac/circuit-ac-control.png" alt="AC Control circuit" style="width:80%">
+    <figcaption>AC Control circuit</figcaption>
+</figure>
+
+<figure class = "post-figure">
+    <img src="assets/images/automating-ac/ac-controller.png" alt="Control Interface for AC" style="width:80%">
+    <figcaption>Control Interface for AC</figcaption>
+</figure>
 
 <p>Every 15 minutes or so, the controller would turn the AC on and cool the room until it was just below the desired temperature. It functioned well enough to maintain the room within 1 degree celsius of the desired temperature. For the final report for the class, I also analyzed the reduction in energy consumption of the AC when using this controller. Compared to our default of leaving the AC on constantly, the new controller used 37% less energy - a sizable improvement for such a simple system. </p>
 
