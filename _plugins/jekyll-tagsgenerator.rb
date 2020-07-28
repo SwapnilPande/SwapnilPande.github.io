@@ -53,7 +53,7 @@ module Jekyll
     end
   end
 
-  class AtomPageAuthor < Page
+  class AtomPageTags < Page
     def initialize(site, base, dir, type, val, posts)
       @site = site
       @base = base
