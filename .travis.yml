@@ -2,10 +2,13 @@ sudo: false
 language: ruby
 cache: bundler
 rvm:
-- 2.4.2
+- 2.5.1
 install:
-- bundle install
-script: bundle exec rake site:deploy
+  # Install Jekyll and dependencies
+  - bundle install
+
+script: bundle exec rake site:deploy --quiet #--trace
+
 branches:
   only:
   - source
