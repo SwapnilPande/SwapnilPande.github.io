@@ -11,7 +11,7 @@ install:
 
 
 script:
-  - gulp
+  - gulp css
   - bundle exec rake site:deploy --quiet #--trace
 
 branches:
