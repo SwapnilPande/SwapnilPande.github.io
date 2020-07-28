@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/tag/chessbot/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2020-07-28T18:30:09+00:00</updated>
+  <updated>2020-07-28T18:47:35+00:00</updated>
   <id>/tag/chessbot/feed.xml</id>
 
   
@@ -48,7 +48,7 @@
 &lt;h2 id=&quot;Project Breakdown&quot;&gt;Project Breakdown&lt;/h2&gt;
 &lt;p&gt;With such a large project and only a month to complete it, I knew that I would have to break down the project into manageable subcomponents that all integrated together to create the full system. When breaking the project down, I defined exactly what functionality each subcomponent should provide and how it interfaces with all of the other subcomponents. This was a critical skill that makes large projects manageable that I learned from leading the Vanderbilt robotics team. The diagram below outlines this structure.&lt;/p&gt;
 
-&lt;figure&gt;
+&lt;figure class = &quot;post-figure&quot;&gt;
     &lt;img src=&quot;assets/images/chessbot/chessbot-subsystem-diagram.png&quot; alt=&quot;Subsystem and Interface Diagram for ChessBot&quot; style=&quot;width:80%&quot;&gt;
     &lt;figcaption&gt;Subsystem and Interface Diagram for ChessBot&lt;/figcaption&gt;
 &lt;/figure&gt;
