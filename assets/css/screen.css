@@ -631,6 +631,14 @@ The first (most recent) post in the list is styled to be bigger than the others 
     background: #fff;
 }
 
+.post-figure {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+
+  }
+
 @media (max-width: 1170px) {
     .post-full-content {
         padding: 5vw 7vw 0;

@@ -20,7 +20,13 @@ var swallowError = function swallowError(error) {
     this.emit('end');
 };
 
+var nodemonServerInit = function () {
+    livereload.listen(1234);
+};
 
+gulp.task('build', ['css'], function (/* cb */) {
+    return nodemonServerInit();
+});
 
 gulp.task('css', function () {
     var processors = [
@@ -40,6 +46,10 @@ gulp.task('css', function () {
         .pipe(livereload());
 });
 
+gulp.task('watch', function () {
+    gulp.watch('assets/css/**', ['css']);
+});
+
 gulp.task('zip', ['css'], function() {
     var targetDir = 'dist/';
     var themeName = require('./package.json').name;
@@ -54,6 +64,6 @@ gulp.task('zip', ['css'], function() {
         .pipe(gulp.dest(targetDir));
 });
 
-gulp.task('default', ['css'], function () {
-    return;
+gulp.task('default', ['build'], function () {
+    gulp.start('watch');
 });
