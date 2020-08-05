@@ -155,13 +155,19 @@ into the {body} of the default.hbs template -->
         <article class="post-full  tag-gallery post tag-projects ">
 
             <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime=" 5 May 2019"> 5 May 2019</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                                <a href='/tag/gallery/'>GALLERY</a>
+                            
+                        
+                    
+                </section>
                 <h1 class="post-full-title">Test Gallery</h1>
             </header>
-
-            
-            <figure class="post-full-image" style="background-image: url(/assets/images/chessbot/chessbot-title.jpg)">
-            </figure>
-            
 
             <section>
                 <div class="gallery" id="gallery">
@@ -244,6 +250,38 @@ into the {body} of the default.hbs template -->
 
 <script src="/assets/js/gallery.js"></script>
             </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/images/swapnil.png" alt="swapnil" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/swapnil">Swapnil Pande</a></h4>
+                                
+                                    <p>Thinker, Innovator, Dreamer</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/swapnil">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
 
         </article>
 
