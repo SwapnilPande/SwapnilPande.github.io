@@ -2062,6 +2062,7 @@ Usage (In Ghost editor):
     0% {
       max-width: 50%;
       filter: blur(4px);
+    }
     100% {
       max-width: 100%;
     }
