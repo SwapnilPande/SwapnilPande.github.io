@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/author/swapnil/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2020-08-05T20:03:53+00:00</updated>
+  <updated>2020-08-05T21:01:48+00:00</updated>
   <id>/author/swapnil/feed.xml</id>
 
   
@@ -30,120 +30,6 @@
   
   
 
-  
-    <entry>
-      <title type="html">Test Gallery</title>
-      <link href="/Test-Gallery" rel="alternate" type="text/html" title="Test Gallery" />
-      <published>2019-05-05T08:00:00+00:00</published>
-      <updated>2019-05-05T08:00:00+00:00</updated>
-      <id>/Test-Gallery</id>
-      <content type="html" xml:base="/Test-Gallery">&lt;p&gt;In the spring semester of my junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple: make something cool. Since I have always been interested in developing intelligence for robotic applications, I figured this would be the perfect opportunity to combine the skill sets I had learned from both classes to make a combined project. In isolation, both of these subject areas alone allow for some neat inventions. However, the intersection of the two allows for seriously powerful, intelligent, and useful creations.&lt;/p&gt;
-
-&lt;div class=&quot;gallery&quot; id=&quot;gallery&quot;&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,care&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,studied&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,substance&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,choose&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,past&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,lamp&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,yet&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,eight&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,crew&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,event&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,instrument&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,practical&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,pass&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,bigger&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,number&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,feature&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,line&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,railroad&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,pride&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,too&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,bottle&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,base&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,cell&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,bag&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;gallery-item&quot;&gt;
-        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,card&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;script src=&quot;/assets/js/gallery.js&quot;&gt;&lt;/script&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Swapnil Pande</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="gallery" />
-      
-
-      
-        <summary type="html">In the spring semester of my junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple: make something cool. Since I have always been interested in developing intelligence for robotic applications, I figured this would be the perfect opportunity to combine the skill sets I had learned from both classes to make a combined project. In isolation, both of these subject areas alone allow for some neat inventions. However, the intersection of the two allows for seriously powerful, intelligent, and useful creations.</summary>
-      
-
-      
-      
-    </entry>
   
     <entry>
       <title type="html">Chessbot, Part 1: Introduction and Motivation</title>
@@ -195,6 +81,199 @@
 
       
         <summary type="html">In my spring semester of junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple: make something cool. Since I have always been interested in developing intelligence for robotic applications, I figured this would be the perfect opportunity to combine the skill sets I had learned from both classes to make a combined project. In isolation, both of these subject areas alone allow for some neat inventions. However, the intersection of the two allows for seriously powerful, intelligent, and useful creations.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Italy in Pictures: Rome, Florence, and Venice</title>
+      <link href="/italy-in-pictures" rel="alternate" type="text/html" title="Italy in Pictures: Rome, Florence, and Venice" />
+      <published>2018-06-07T08:00:00+00:00</published>
+      <updated>2018-06-07T08:00:00+00:00</updated>
+      <id>/italy-in-pictures</id>
+      <content type="html" xml:base="/italy-in-pictures">&lt;p&gt;In the spring semester of my junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple: make something cool. Since I have always been interested in developing intelligence for robotic applications, I figured this would be the perfect opportunity to combine the skill sets I had learned from both classes to make a combined project. In isolation, both of these subject areas alone allow for some neat inventions. However, the intersection of the two allows for seriously powerful, intelligent, and useful creations.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot; id=&quot;gallery&quot;&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/00100dPORTRAIT_00100_BURST20180525191914138_COVER.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/00100dPORTRAIT_00100_BURST20180525193429430_COVER.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01515.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01558.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01559.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01730.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01738.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01751.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01788.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01789.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01791.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01852.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01885.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01921.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01932.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01940.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC01991.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02001.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02064.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02105.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02113.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02117.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02157.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02165.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02168.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02169.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02177.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02183.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02193.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02224.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02234.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02255.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02274.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02275.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02295.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02323.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02414.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02416.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02455.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02467.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02488.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/DSC02496.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/IMG_20180525_191518.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/IMG_20180525_194835.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/IMG_20180527_163118.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/IMG_20180527_201629.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/IMG_6197.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/MVIMG_20180525_185920.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://personal-website-italy-in-pictures.s3.amazonaws.com/MVIMG_20180525_192541.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script src=&quot;/assets/js/gallery.js&quot;&gt;&lt;/script&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Swapnil Pande</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="gallery" />
+      
+        <category term="travel" />
+      
+
+      
+        <summary type="html">In the spring semester of my junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple: make something cool. Since I have always been interested in developing intelligence for robotic applications, I figured this would be the perfect opportunity to combine the skill sets I had learned from both classes to make a combined project. In isolation, both of these subject areas alone allow for some neat inventions. However, the intersection of the two allows for seriously powerful, intelligent, and useful creations.</summary>
       
 
       
