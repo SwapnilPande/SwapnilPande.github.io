@@ -1948,6 +1948,17 @@ Usage (In Ghost editor):
     background: #fff;
 }
 
+@media (max-width: 1170px) {
+    .post-full-content {
+        padding: 5vw 7vw 0;
+    }
+}
+@media (max-width: 800px) {
+    .post-full-content {
+        font-size: 1.9rem;
+    }
+}
+
 .hello {
     opacity: 1 !important;
 }
