@@ -1940,13 +1940,12 @@ Usage (In Ghost editor):
 .gallery-full-content > p:first-child {
     position: relative;
     margin: 0 auto;
-    padding: 10px 100px 20px;
+    padding: 10px 100px 30px;
     min-height: 230px;
     font-family: Georgia, serif;
     font-size: 2.2rem;
     line-height: 1.6em;
     background: #fff;
-    box-shadow: 0 0 16px #333;
 }
 
 .hello {
