@@ -27,6 +27,6 @@ gallery.querySelectorAll('img').forEach(function (item) {
 window.addEventListener('resize', resizeAll);
 gallery.querySelectorAll('.gallery-item').forEach(function (item) {
     item.addEventListener('click', function () {
-        item.classList.toggle('full');
+        item.classList.toggle('gallery-full');
     });
 });
