@@ -1949,12 +1949,12 @@ Usage (In Ghost editor):
 }
 
 @media (max-width: 1170px) {
-    .gallery-full-content {
+    .gallery-full-content > p:first-child {
         padding: 5vw 7vw 0;
     }
 }
 @media (max-width: 800px) {
-    .gallery-full-content {
+    .gallery-full-content > p:first-child {
         font-size: 1.9rem;
     }
 }
