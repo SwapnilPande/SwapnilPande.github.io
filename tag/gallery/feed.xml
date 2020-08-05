@@ -1,16 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title> - Articles</title>
-    <description>A chronicle of projects, experiences, thoughts, and ideas</description>
-    <link>
-    </link>
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/tag/gallery/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2020-08-05T13:44:03+00:00</updated>
+  <id>/tag/gallery/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Swapnil Pande - Revision History | </title>
+  
+
+  
+    <subtitle>A chronicle of projects, experiences, thoughts, and ideas</subtitle>
+  
+
+  
+
+  
     
       
-      <item>
-        <title>Test Gallery</title>
-        
-          <description>&lt;div class=&quot;gallery&quot; id=&quot;gallery&quot;&gt;
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Test Gallery</title>
+      <link href="/Test-Gallery" rel="alternate" type="text/html" title="Test Gallery" />
+      <published>2019-05-05T08:00:00+00:00</published>
+      <updated>2019-05-05T08:00:00+00:00</updated>
+      <id>/Test-Gallery</id>
+      <content type="html" xml:base="/Test-Gallery">&lt;div class=&quot;gallery&quot; id=&quot;gallery&quot;&gt;
     &lt;div class=&quot;gallery-item&quot;&gt;
         &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,care&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
@@ -88,44 +115,32 @@
     &lt;/div&gt;
 &lt;/div&gt;
 
-</description>
-        
-        <pubDate>Sun, 05 May 2019 08:00:00 +0000</pubDate>
-        <link>
-        /Test-Gallery</link>
-        <guid isPermaLink="true">/Test-Gallery</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Chessbot, Part 1: Introduction and Motivation</title>
-        
-          <description>&lt;p&gt;In my spring semester of junior year at Vanderbilt, all of my classes (heat transfer, mechatronics, deep learning, and microcontrollers) culminated in final projects. The instructions for deep learning and mechatronics were simple: make something cool. Since I have always been interested in developing intelligence for robotic applications, I figured this would be the perfect opportunity to combine the skill sets I had learned from both classes to make a combined project. In isolation, both of these subject areas alone allow for some neat inventions. However, the intersection of the two allows for seriously powerful, intelligent, and useful creations.&lt;/p&gt;
+&lt;script src=&quot;/assets/js/gallery.js&quot;&gt;&lt;/script&gt;</content>
 
-</description>
-        
-        <pubDate>Wed, 01 May 2019 08:00:00 +0000</pubDate>
-        <link>
-        /chessbot-intro</link>
-        <guid isPermaLink="true">/chessbot-intro</guid>
-      </item>
       
-    
       
-      <item>
-        <title>Automating Dorm Room Air Conditioner</title>
-        
-          <description>&lt;p&gt;One of the frustrations of living with roommates that is rarely talkd about is the battle over the room temperature. This was one of the biggest point of contention between my roommaates in freshman year. &lt;/p&gt;
+      
+      
+      
 
-</description>
+      <author>
+          <name>Swapnil Pande</name>
         
-        <pubDate>Sat, 22 Apr 2017 10:00:00 +0000</pubDate>
-        <link>
-        /Automating-AC</link>
-        <guid isPermaLink="true">/Automating-AC</guid>
-      </item>
+        
+      </author>
+
       
-    
-  </channel>
-</rss>
+
+      
+        <category term="gallery" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

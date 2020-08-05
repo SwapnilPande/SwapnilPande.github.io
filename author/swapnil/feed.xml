@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/author/swapnil/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2020-07-28T21:33:04+00:00</updated>
+  <updated>2020-08-05T13:44:03+00:00</updated>
   <id>/author/swapnil/feed.xml</id>
 
   
@@ -30,6 +30,118 @@
   
   
 
+  
+    <entry>
+      <title type="html">Test Gallery</title>
+      <link href="/Test-Gallery" rel="alternate" type="text/html" title="Test Gallery" />
+      <published>2019-05-05T08:00:00+00:00</published>
+      <updated>2019-05-05T08:00:00+00:00</updated>
+      <id>/Test-Gallery</id>
+      <content type="html" xml:base="/Test-Gallery">&lt;div class=&quot;gallery&quot; id=&quot;gallery&quot;&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,care&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,studied&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,substance&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,choose&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,past&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,lamp&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,yet&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,eight&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,crew&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,event&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,instrument&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,practical&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,pass&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,bigger&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,number&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,feature&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,line&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,railroad&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,pride&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,too&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,bottle&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,base&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,cell&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,bag&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;gallery-item&quot;&gt;
+        &lt;div class=&quot;gallery-content&quot;&gt;&lt;img src=&quot;https://source.unsplash.com/random/?tech,card&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script src=&quot;/assets/js/gallery.js&quot;&gt;&lt;/script&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Swapnil Pande</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="gallery" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Chessbot, Part 1: Introduction and Motivation</title>
