@@ -1949,12 +1949,12 @@ Usage (In Ghost editor):
 }
 
 @media (max-width: 1170px) {
-    .post-full-content {
+    .gallery-full-content {
         padding: 5vw 7vw 0;
     }
 }
 @media (max-width: 800px) {
-    .post-full-content {
+    .gallery-full-content {
         font-size: 1.9rem;
     }
 }
@@ -2033,39 +2033,19 @@ Usage (In Ghost editor):
   @-moz-keyframes zoomin {
     0% {
       max-width: 50%;
-      transform: rotate(-30deg);
       filter: blur(4px);
-    }
-    30% {
-      filter: blur(4px);
-      transform: rotate(-80deg);
-    }
-    70% {
-      max-width: 50%;
-      transform: rotate(45deg);
     }
     100% {
       max-width: 100%;
-      transform: rotate(0deg);
     }
   }
   @-webkit-keyframes zoomin {
     0% {
       max-width: 50%;
-      transform: rotate(-30deg);
       filter: blur(4px);
-    }
-    30% {
-      filter: blur(4px);
-      transform: rotate(-80deg);
-    }
-    70% {
-      max-width: 50%;
-      transform: rotate(45deg);
     }
     100% {
       max-width: 100%;
-      transform: rotate(0deg);
     }
   }
   @-o-keyframes zoomin {
@@ -2074,35 +2054,15 @@ Usage (In Ghost editor):
       transform: rotate(-30deg);
       filter: blur(4px);
     }
-    30% {
-      filter: blur(4px);
-      transform: rotate(-80deg);
-    }
-    70% {
-      max-width: 50%;
-      transform: rotate(45deg);
-    }
     100% {
       max-width: 100%;
-      transform: rotate(0deg);
     }
   }
   @keyframes zoomin {
     0% {
       max-width: 50%;
-      transform: rotate(-30deg);
       filter: blur(4px);
-    }
-    30% {
-      filter: blur(4px);
-      transform: rotate(-80deg);
-    }
-    70% {
-      max-width: 50%;
-      transform: rotate(45deg);
-    }
     100% {
       max-width: 100%;
-      transform: rotate(0deg);
     }
   }
