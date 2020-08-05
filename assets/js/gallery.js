@@ -1,6 +1,6 @@
 var gallery = document.querySelector('#gallery');
 var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
-var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
+var getHeight = function (item) { return item.querySelector('.gallery-content').getBoundingClientRect().height; };
 var resizeAll = function () {
     var altura = getVal(gallery, 'grid-auto-rows');
     var gap = getVal(gallery, 'grid-row-gap');
