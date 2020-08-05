@@ -1938,17 +1938,15 @@ Usage (In Ghost editor):
 /* 12. Masonry Gallery
 /* ---------------------------------------------------------- */
 .gallery-full-content > p:first-child {
-    font-size: 1.25em;
-    line-height: 1.5em;
-
     position: relative;
     margin: 0 auto;
-    padding: 70px 100px 0;
+    padding: 10px 100px 20px;
     min-height: 230px;
     font-family: Georgia, serif;
     font-size: 2.2rem;
     line-height: 1.6em;
     background: #fff;
+    box-shadow: 0 0 16px #333;
 }
 
 .hello {
