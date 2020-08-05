@@ -1950,7 +1950,7 @@ Usage (In Ghost editor):
 
 @media (max-width: 1170px) {
     .gallery-full-content > p:first-child {
-        padding: 5vw 7vw 0;
+        padding: 5vw 7vw 2vw;
     }
 }
 @media (max-width: 800px) {
