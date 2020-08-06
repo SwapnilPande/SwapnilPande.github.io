@@ -2,3 +2,8 @@ projects:
   name: projects
   description: A collection of the cool projects I've worked on over the years
   cover: assets/images/projects-cover.jpg
+
+photography:
+  name: photography
+  description: Photography albums from my shoots and trips
+  cover: assets/images/photography-cover.jpg
