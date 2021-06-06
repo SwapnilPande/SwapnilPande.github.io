@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/tag/projects/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2021-06-06T18:18:40+00:00</updated>
+  <updated>2021-06-06T19:32:59+00:00</updated>
   <id>/tag/projects/feed.xml</id>
 
   
@@ -39,9 +39,15 @@
       <id>/chessbot-mechanical</id>
       <content type="html" xml:base="/chessbot-mechanical">&lt;p&gt;Welcome to Part 2 of the Chessbot series, where I'll be diving into my design process for the mechanical aspects of the chess piece actuation system. &lt;/p&gt;
 
-&lt;p&gt;When I embarked on this project, I wanted to make it something big. It was more than a class project to me - it was a way to push my design skills to the limits and learn new skills along the way. With my prior experience in mechatronic systems, machine learning, and intelligent robotics, I knew wouldn't learn anything from just meeting the basic requirements of each of the projects. So instead, I set my goals for the projects higher than the class requirements, to a level I knew I would struggle to accomplish in the 1 month timeframe.&lt;/p&gt;
+&lt;p&gt;The first step of this process was to define the requirements for this mechanical system. Naturally, the system had to be able to move any of the different shape chess pieces from a given start square to a given end square. One particularly interesting challenge in this requirement was the knight, which could &quot;jump&quot; over other pieces. This meant that there is no guarantee that there is an unbostructed path from the start to end square. Another important requirement was precision: since the pieces are in relatively close proximity, the manipulation system had to consistently reach the middle of the square to collect the piece and consistently place it back in the middle of the new square to avoid collisions with other pieces. Finally, the last two requirements were cost, complexity, and timeline requirements. With the ambitious 3 week timeline, I didn't have time to do many design revisions, so each part needed to be designed to be easily machineable and as simple as possible to reduce the chance of design failure. Since I was paying for the project myself, I also tried to keep the cost as low as possible, mostly by using the school resources whereever I could.&lt;/p&gt;
 
-&lt;p&gt;My other motivation for choosing a challenging process was more personal. My final goal for my project was to prove to myself that I was, in fact, capable of desgining and implementing a large scale robotics project end-to-end. Most of my experience in mechanical, electrical, and software design for robotics projects has been in teams (and more recently, specifically leading the team).  Because of that, I always had a slight doubt that I was not as experienced as I might think. With this project, I wanted to prove to myself that I had the knowledge and skill to implement all the necessary systems to create an intelligent mechatronic device from end-to-end.&lt;/p&gt;
+&lt;p&gt;Since the goal was to keep the design simple as possible, my first design idea was the simplest manipulation system I could imagine: a two degree-of-freedom arm above the board.&lt;/p&gt;
+
+&lt;figure class = &quot;post-figure&quot;&gt;
+    &lt;img src=&quot;assets/images/chessbot/chessbot-drawing.png&quot; alt=&quot;Original Rough Design Sketch for Chess Piece Manipulator&quot; style=&quot;width:80%&quot;&gt;
+    &lt;figcaption&gt;Subsystem and Interface Diagram for ChessBot&lt;/figcaption&gt;
+&lt;/figure&gt;
+
 
 &lt;p&gt;With all of my goals in mind, I spent a couple of days brainstorming ideas that would check all the boxes. Laying in bed one night, it hit me: a robot that plays chess against a human. But on a physical board with pieces. And also with an AI that can beat its opponent every time (that I train myself, of course). In my classic fashion, I stayed up until the sunrise ideating, conceptualizing, and organizing the project. &lt;/p&gt;
 
@@ -49,7 +55,7 @@
 &lt;p&gt;With such a large project and only a month to complete it, I knew that I would have to break down the project into manageable subcomponents that all integrated together to create the full system. When breaking the project down, I defined exactly what functionality each subcomponent should provide and how it interfaces with all of the other subcomponents. This was a critical skill that I learned from leading the Vanderbilt robotics team. The diagram below outlines this structure.&lt;/p&gt;
 
 &lt;figure class = &quot;post-figure&quot;&gt;
-    &lt;img src=&quot;assets/images/chessbot/chessbot-subsystem-diagram.png&quot; alt=&quot;Subsystem and Interface Diagram for ChessBot&quot; style=&quot;width:80%&quot;&gt;
+    &lt;img src=&quot;assets/images/chessbot/chessbot-subsystem.png&quot; alt=&quot;Subsystem and Interface Diagram for ChessBot&quot; style=&quot;width:80%&quot;&gt;
     &lt;figcaption&gt;Subsystem and Interface Diagram for ChessBot&lt;/figcaption&gt;
 &lt;/figure&gt;
 
