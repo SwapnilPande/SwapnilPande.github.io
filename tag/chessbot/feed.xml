@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="/tag/chessbot/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2021-06-06T19:32:59+00:00</updated>
+  <updated>2021-06-07T02:19:15+00:00</updated>
   <id>/tag/chessbot/feed.xml</id>
 
   
@@ -41,12 +41,45 @@
 
 &lt;p&gt;The first step of this process was to define the requirements for this mechanical system. Naturally, the system had to be able to move any of the different shape chess pieces from a given start square to a given end square. One particularly interesting challenge in this requirement was the knight, which could &quot;jump&quot; over other pieces. This meant that there is no guarantee that there is an unbostructed path from the start to end square. Another important requirement was precision: since the pieces are in relatively close proximity, the manipulation system had to consistently reach the middle of the square to collect the piece and consistently place it back in the middle of the new square to avoid collisions with other pieces. Finally, the last two requirements were cost, complexity, and timeline requirements. With the ambitious 3 week timeline, I didn't have time to do many design revisions, so each part needed to be designed to be easily machineable and as simple as possible to reduce the chance of design failure. Since I was paying for the project myself, I also tried to keep the cost as low as possible, mostly by using the school resources whereever I could.&lt;/p&gt;
 
+&lt;h2 id=&quot;Initial Design Interation&quot;&gt;Initial Design Interation&lt;/h2&gt;
 &lt;p&gt;Since the goal was to keep the design simple as possible, my first design idea was the simplest manipulation system I could imagine: a two degree-of-freedom arm above the board.&lt;/p&gt;
 
 &lt;figure class = &quot;post-figure&quot;&gt;
-    &lt;img src=&quot;assets/images/chessbot/chessbot-drawing.png&quot; alt=&quot;Original Rough Design Sketch for Chess Piece Manipulator&quot; style=&quot;width:80%&quot;&gt;
+    &lt;img src=&quot;assets/images/chessbot/chessbot-drawing.png&quot; alt=&quot;Original rough design sketch for chess piece manipulator&quot; style=&quot;width:80%&quot;&gt;
     &lt;figcaption&gt;Subsystem and Interface Diagram for ChessBot&lt;/figcaption&gt;
 &lt;/figure&gt;
+
+&lt;p&gt;One of the tough challenges of this design was being able to manipulate pieces of different shapes with a shared end-effector. Even harder, while some pieces like pawns are rotation invariant, pieces like knights are not meaning that the end effector would have to consider the rotation of these pieces as well. For this design, I decided that I would attach a small magnet of top of each piece and use an electromagnet at the end of the plunger to grab the pieces, almost standardizing the interface for all the pieces (still does not account for height differences). The plunger would then move up and down to pick up pieces and move it to it's final square. &lt;/p&gt;
+
+&lt;p&gt; While this seemed like a simple idea at first, I quickly realized that it didn't meet many of the design requirements I had put in place. The primary challenge with this design was making an arm that could reach across the entire chessboard that was also precise enough to manipulate the pieces consistently. See, the size of the chessboard is a free variable that I could manipulate to meet the other design requirements. By making the chessboard smaller, I reduce the size of the arm I need to reach all the squares, but I also increase the precision requirement of the arm since the pieces are much closer together. On the other hand, making the chessboard large increases the engineering work make the arm rigid at full extension, while slightly alleviating the precision requirement. With this tradeoff, I realized that regardless of the size of the chessboard, I would need very high quality motors control as well as high precision parts so the backlash of each arm joint is low. Notably, in the case of an arm like this, a small angular backlash in the joints translates into a large positional error at the end effector. Therefore, this design didn't meet the cost requirements, nor the requirement of being easily machineable (because of the high tolerances).&lt;/p&gt;
+
+&lt;h2 id=&quot;Magnets Under the Board&quot;&gt;Magnets Under the Board&lt;/h2&gt;
+The key insight for my next iteration came from the question &quot;can we manipulate the chess pieces from under the board instead of from above&quot;? At first thought, it seems like it would be harder or even impossible because you can't actually touch the pieces. However, I quickly remembered a toy I used to love playing with in my doctor's office:
+
+&lt;figure class = &quot;post-figure&quot;&gt;
+    &lt;img src=&quot;assets/images/chessbot/chessbot-magnet-sand-table.pjg&quot; alt=&quot;Magnetic sand tables I used to play with at my pediatrician's office.&quot; style=&quot;width:80%&quot;&gt;
+    &lt;figcaption&gt;Subsystem and Interface Diagram for ChessBot&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These tables have little permanents magnets underneath that you can use to move the cars around inside the box. If I replace simply replace the permanent magnets with an electromagnet, I can &quot;grab&quot; and &quot;release&quot; the pieces with software without actually having to move the magnet closer or further from the board. The next step is moving the magnet under the board, which once again requires some 2 degree of freedom actuator. However, since this one is under the board, the actuator can take up the whole board area without interfering with the pieces or the other player, simplifying the design. For this, I took inspiration from 3D printer gantries which use two orthogonal actuators create the 2 degrees of freedom (also simplifies controls). The last challenge is the knight, which again needs to be jump over pieces. I decided to avoid this problem by allowing the pieces to move on the edges between squares instead of over them. As long as the pieces are always on the edges and corners between squares, the path planning problem is simplified because these will always be clear.&lt;/p&gt;
+
+&lt;p&gt;In this new design, I was confident that I would be able to design the actuator system to meet the precision requirements I needed because I can draw from existing designs for similar systems such as 3D printers. The only variable that was unclear was whether the magnetic actuator would work as planned. I needed a magnet large enough to attract the chess piece from under the board, while not also attracting all the nearby pieces. Since this was the hypothesis that needed testing, I got overnight shipping for an electromagnet and a set of magnetic chess pieces. &lt;/p&gt;
+
+&lt;h2 id=&quot;Testing the Magnet&quot;&gt;Testing the Magnet&lt;/h2&gt;
+&lt;p&gt;Once I got the magnet and chess pieces in the mail, I wired it up and starting testing how thick of a surface I could move the pieces through. I found quickly that the magnet was much weaker than I expected and was really only able to grab the piece within approximately 1/8 of an inch. At this distance, the surface under the magnet also had to be very smooth, otherwise friction would stop it from moving. The positive from all of this was that the magnet would only interact with the piece if the piece was directly over it, meaning we could move pieces in close proximity. These experiments set the requirements for my board:
+&lt;ul&gt;
+    &lt;li&gt;As thin as possible&lt;/li&gt;
+    &lt;li&gt;Wide enough to allow pieces to move on the edges of the squares without colliding with other pieces&lt;/li&gt;
+    &lt;li&gt;No sigificant flex in the middle, to avoid colliding with the magnet underneath&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;These constraints immediately ruled out cardboard because it would be too thick. The natural next choice in my mind was steel: thin sheets are very inexpensive and very rigid. Of course, the problem with steel is that it's magnetic, so I went with a &quot;2' x 2' x 1/16&quot; sheet of aluminum.&lt;/p&gt;
+
+&lt;h2 id=&quot;2D Magnet Actuation&quot;&gt;2D Magnet Actuation&lt;/h2&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+
 
 
 &lt;p&gt;With all of my goals in mind, I spent a couple of days brainstorming ideas that would check all the boxes. Laying in bed one night, it hit me: a robot that plays chess against a human. But on a physical board with pieces. And also with an AI that can beat its opponent every time (that I train myself, of course). In my classic fashion, I stayed up until the sunrise ideating, conceptualizing, and organizing the project. &lt;/p&gt;
