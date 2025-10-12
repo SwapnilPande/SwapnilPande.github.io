@@ -15,19 +15,10 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
-
-</div>
-
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-
   <h2>Peer-Reviewed Publications</h2>
-  {% bibliography filter: @*[keywords!~"thesis"] %}
+  {% bibliography --query @*[keywords!~"thesis"] %}
 
   <h2>Thesis</h2>
-  {% bibliography filter: @*[keywords~"thesis"] %}
+  {% bibliography --query @*[keywords~"thesis"] %}
 
 </div>
