@@ -19,6 +19,6 @@ nav_order: 2
   {% bibliography -f papers %}
 
   <h2>Thesis</h2>
-  {% bibliography -f secondary %}
+  {% bibliography -f thesis %}
 
-</div>k
+</div>
