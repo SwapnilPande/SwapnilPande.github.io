@@ -16,9 +16,9 @@ nav_order: 2
 <div class="publications">
 
   <h2>Peer-Reviewed Publications</h2>
-  {% bibliography --query @*[keywords!~"thesis"] %}
+  {% bibliography -f papers %}
 
   <h2>Thesis</h2>
-  {% bibliography --query @*[keywords~"thesis"] %}
+  {% bibliography -f secondary %}
 
-</div>
+</div>k
