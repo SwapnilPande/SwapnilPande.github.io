@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>I build robots that meet people where they are, to solve problems that matter.</p>
+    <p>I care about building robots that understand context: people, tasks, and the world they operate in.</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
