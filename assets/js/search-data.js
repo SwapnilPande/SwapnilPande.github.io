@@ -420,10 +420,12 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-",
-          title: '',
+            },},{id: "news-i-39-m-leaving-every-flavor-robotics-and-am-searching-for-my-next-opportunity",
+          title: 'I&amp;#39;m leaving Every Flavor Robotics and am searching for my next opportunity',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
