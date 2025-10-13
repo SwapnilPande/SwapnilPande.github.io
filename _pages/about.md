@@ -2,9 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: >
-Robotics/ML Research Engineer | Former CEO, Every Flavor Robotics
-Former founder, now exploring what’s next in robotics and intelligent systems.
+subtitle: Robotics & AI Engineer | Former CEO, Every Flavor Robotics
 
 profile:
   align: right
@@ -31,6 +29,5 @@ Welcome! I'm Swapnil, I'm a robotics researcher and engineer
 
 Full-stack robotics researcher interested in pushing the boundaries of robotic resasoning.
 
+
 Let's chat! Shoot me an email at me [at] swapnilpande [dot] com
-
-
