@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I'm leaving Every Flavor Robotics and am searching for my next opportunity
+title: I'm leaving Every Flavor Robotics, searching for my next opportunity
 date: 2025-08-15 07:59:00-0400
 inline: false
 related_posts: false
