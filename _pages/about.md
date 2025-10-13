@@ -25,9 +25,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! I'm Swapnil, I'm a robotics researcher and engineer interested in pushing the boundaries of robotic reasoning.
+Welcome! I'm a full-stack roboticist, interested in research and engineering that's pushing the frontier of robotic reasoning in the wild. While my main interests lie in enabling robots to learn to make smart decisions, I have spent extensive time working on every portion of the robotics stack, from mechanical design and fabrication, to power system and embedded systems engineering, to robust software development, control system design, and machine learning research. I believe that pushing the frontier of robotic algorithms requires reasoning about and developing the full system jointly, because our understanding of the space is too immature (we're still in the wild west).
 
-I received my Master's degree in Robotics, researching at the <a href="https://autonlab.org/">Auton Lab</a> under the guidance of <a href="https://www.cs.cmu.edu/~schneide/">Jeff Schneider</a> and in collaboration with Argo AI. I studied methods for learning effective decision-making for autonomous vehicles from fully offline datasets and experimented with deploying these algorithms on Argo AI's driving stack.
+I received my master's degree in robotics at Carnegie Mellon University, researching at the <a href="https://autonlab.org/">Auton Lab</a> under the guidance of <a href="https://www.cs.cmu.edu/~schneide/">Jeff Schneider</a> and in collaboration with Argo AI. I studied methods for learning effective decision-making for autonomous vehicles from fully offline datasets and experimented with deploying these algorithms on Argo AI's driving stack. Before that, I spent 4 years at Vanderbilt University studying mechanical and computer engineering, with a strong focus on learning to build full-stack robotic systems.
 
 
 Let's chat! Shoot me an email at me [at] swapnilpande [dot] com
