@@ -412,16 +412,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-i-successfully-defended-my-master-s-thesis-check-out-the-full-document-here",
+          title: 'I successfully defended my Master’s Thesis! Check out the full document here',
+          description: "",
+          section: "News",},{id: "news-i-39-m-leaving-every-flavor-robotics-searching-for-my-next-opportunity",
+          title: 'I&amp;#39;m leaving Every Flavor Robotics, searching for my next opportunity',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-i-39-m-leaving-every-flavor-robotics-and-am-searching-for-my-next-opportunity",
-          title: 'I&amp;#39;m leaving Every Flavor Robotics and am searching for my next opportunity',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_3/";
+              window.location.href = "/news/leaving_efr/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
