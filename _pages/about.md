@@ -25,9 +25,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome! I'm Swapnil, I'm a robotics researcher and engineer
+Welcome! I'm Swapnil, I'm a robotics researcher and engineer interested in pushing the boundaries of robotic reasoning.
 
-Full-stack robotics researcher interested in pushing the boundaries of robotic resasoning.
+I received my Master's degree in Robotics, researching at the <a href="https://autonlab.org/">Auton Lab</a> under the guidance of <a href="https://www.cs.cmu.edu/~schneide/">Jeff Schneider</a> and in collaboration with Argo AI. I studied methods for learning effective decision-making for autonomous vehicles from fully offline datasets and experimented with deploying these algorithms on Argo AI's driving stack.
 
 
 Let's chat! Shoot me an email at me [at] swapnilpande [dot] com
