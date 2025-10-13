@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-    <p>Robotics & ML Engineer | Former CEO, Every Flavor Robotics</p>
+    <p>Robotics & ML Engineer | Former CEO, <a href="https://www.linkedin.com/company/every-flavor-robotics" target="_blank" rel="noopener noreferrer">Every Flavor Robotics</a></p>
     <p>Now exploring what’s next in robotics and intelligent systems.</p>
 
 profile:
