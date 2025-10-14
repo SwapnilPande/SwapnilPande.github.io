@@ -420,6 +420,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/efr_starting/";
+            },},{id: "news-every-flavor-demoed-etchbot-at-opensauce-2024",
+          title: 'Every Flavor demoed Etchbot at OpenSauce 2024!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/efr_open_sauce/";
             },},{id: "news-i-39-m-leaving-every-flavor-robotics-searching-for-my-next-opportunity",
           title: 'I&amp;#39;m leaving Every Flavor Robotics, searching for my next opportunity',
           description: "",
