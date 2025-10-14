@@ -420,7 +420,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/efr_starting/";
-            },},{id: "news-every-flavor-demoed-etchbot-at-opensauce-2024",
+            },},{id: "news-every-flavor-s-kickstarter-campaign-is-200-funded-check-out-our-first-product-motorogo-mini",
+          title: 'Every Flavor’s kickstarter campaign is 200% funded. Check out our first product: MotoroGo...',
+          description: "",
+          section: "News",},{id: "news-every-flavor-demoed-etchbot-at-opensauce-2024",
           title: 'Every Flavor demoed Etchbot at OpenSauce 2024!',
           description: "",
           section: "News",handler: () => {
