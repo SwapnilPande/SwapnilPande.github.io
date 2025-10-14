@@ -415,7 +415,12 @@ ninja.data = [{
             },},{id: "news-i-successfully-defended-my-master-s-thesis-check-out-the-full-document-here",
           title: 'I successfully defended my Master’s Thesis! Check out the full document here',
           description: "",
-          section: "News",},{id: "news-i-39-m-leaving-every-flavor-robotics-searching-for-my-next-opportunity",
+          section: "News",},{id: "news-i-am-launching-every-flavor-robotics-a-startup-raising-the-baseline-in-open-source-robotics",
+          title: 'I am launching Every Flavor Robotics, a startup raising the baseline in open-source...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/efr_starting/";
+            },},{id: "news-i-39-m-leaving-every-flavor-robotics-searching-for-my-next-opportunity",
           title: 'I&amp;#39;m leaving Every Flavor Robotics, searching for my next opportunity',
           description: "",
           section: "News",handler: () => {
