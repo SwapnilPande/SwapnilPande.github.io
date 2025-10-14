@@ -10,6 +10,8 @@ We demoed our viral EtchBot at OpenSauce 2024! We went through some serious desi
 
 We also redesigned almost all of the software stack to better support live demos. This included building a GUI to capture a picture and show the users the pipeline proessing steps, retuning the piepline to better capture facial features, and reducing the processing time from ~8 minutes to under 50 seconds.
 
+It was incredibly inspiring to meet creators equally as passionate as us in all of their various niches. We met new collaborators, shared insights on the content creation industry, and made lifelong friends. I can't wait to be back next year. We have more in store for the Etchbot, subscribe to our channel to see what's next!
+
 ## Press coverage
 
 <style>
@@ -39,7 +41,7 @@ We also redesigned almost all of the software stack to better support live demos
     </div>
     <div class="efr-body">
       <div class="efr-title">Etch-a-Sketch Portrait Robot at Open Sauce ’24</div>
-      <p class="efr-desc">A quick look at the live demo rig and drawing pipeline.</p>
+      <p class="efr-desc">A quick look at the live demo and drawing pipeline.</p>
     </div>
   </div>
 
@@ -51,7 +53,7 @@ We also redesigned almost all of the software stack to better support live demos
         <span>hackaday.com</span>
       </div>
       <div class="efr-title">Etch-A-Sketch Camera is Open Source</div>
-      <p class="efr-desc">Coverage of our EtchBot build, open-source stack, and live demo performance at OpenSauce 2024.</p>
+      <p class="efr-desc">Coverage of our EtchBot build and open-source stack.</p>
       <div class="efr-cta">Read article →</div>
     </div>
   </a>
@@ -66,10 +68,10 @@ We also redesigned almost all of the software stack to better support live demos
     </div>
     <div class="efr-body">
       <div class="efr-title">Original build video</div>
-      <p class="efr-desc">Deep dive on the mechanism, controls, and software pipeline.</p>
+      <p class="efr-desc">Deep dive on the story of the build.</p>
     </div>
   </div>
 
 </div>
-It was incredibly inspiring to meet creators equally as passionate as us in all of their various niches. We met new collaborators, shared insights on the content creation industry, and made lifelong friends. I can't wait to be back next year. We have more in store for the Etchbot, subscribe to our channel to see what's next!
+
 
