@@ -3,8 +3,6 @@
         "name": "Swapnil Pande",
         "label": "CEO",
         "image": "",
-        "email": "swapnil.pande98@gmail.com",
-        "phone": "(804) 1869-8910",
         "url": "swapnilpande.com",
         "summary": "Full-stack robotics researcher interested in pushing the boundaries of robotic resasoning.",
         "location": {
@@ -34,9 +32,7 @@
             "highlights": [
                 "Relativity"
             ]
-        }
-    ],
-    "volunteer": [
+        },
         {
             "organization": "Argo AI",
             "location": "Pittsburgh, PA",
@@ -50,6 +46,7 @@
             ]
         }
     ],
+    "volunteer": [],
     "education": [
         {
             "institution": "Carnegie Mellon University",
@@ -59,10 +56,15 @@
             "studyType": "Masters",
             "startDate": "2020-08-20",
             "endDate": "2022-08-22",
-            "score": "10",
-            "courses": [
-                "Theory of Relativity"
-            ]
+        },
+        {
+            "institution": "Vanderbilt University",
+            "location": "Nashville, TN",
+            "url": "https://www.vanderbilt.edu/",
+            "area": "Mechanical Engineering, Computer Engineering",
+            "studyType": "Bachelors of Engineering",
+            "startDate": "2016-08-20",
+            "endDate": "2020-08-22",
         }
     ],
     "awards": [
