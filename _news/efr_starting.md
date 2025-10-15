@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I am launching Every Flavor Robotics to raise the baseline in open-source robotics.
+title: I am launching Every Flavor Robotics to raise the baseline in open-source robotics
 date: 2023-04-03 07:59:00-0400
 inline: false
 related_posts: false

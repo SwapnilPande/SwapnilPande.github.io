@@ -27,7 +27,7 @@ latest_posts:
 
 Welcome! I'm a full-stack roboticist, focused on research and engineering that's pushing the frontier of robotic reasoning in the wild.
 
-My main interests lie in developing algorithms to enable robots to learn to make smart decisions. However, I believe that pushing the frontier of robotic algorithms still requires reasoning about full systems jointly. I have spent extensive time working on all portions of the robotics stack, from mechanical design and fabrication, to power system and embedded systems engineering, to robust software development, control system design, and machine learning research.
+My main interests lie in developing algorithms to enable robots to learn smart decision-making. However, I believe that pushing the frontier of robotic algorithms requires reasoning about full systems jointly. I have spent extensive time working on all portions of the robotics stack, from mechanical design and fabrication, to embedded systems engineering, robust software development, control system design, and machine learning research.
 
 I was the founder and CEO of Every Flavor Robotics, where we worked on developing high-quality open-source robotics hardware and software to fill the gap between academia and industry. My technical focus at the company was on implementing high-performance control systems, researching and deploying robot learning algorithms on real hardware, and developing consumer-ready robotic software stacks. As CEO, I also led our fundraising efforts and strategy development.
 
