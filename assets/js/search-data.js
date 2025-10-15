@@ -416,7 +416,7 @@ ninja.data = [{
           title: 'I successfully defended my Master’s Thesis! Check out the full document here',
           description: "",
           section: "News",},{id: "news-i-am-launching-every-flavor-robotics-to-raise-the-baseline-in-open-source-robotics",
-          title: 'I am launching Every Flavor Robotics to raise the baseline in open-source robotics....',
+          title: 'I am launching Every Flavor Robotics to raise the baseline in open-source robotics...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/efr_starting/";
