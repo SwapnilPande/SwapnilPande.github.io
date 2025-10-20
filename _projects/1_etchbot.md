@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Claude MonEtch - Etch-a-sketch portraits in under 60 seconds
-description: with background image
+title: Claude MonEtch
+description: Drawing etch-a-sketch portraits in under 60 seconds
 img: assets/img/etch_1.png
 importance: 1
 category: work
