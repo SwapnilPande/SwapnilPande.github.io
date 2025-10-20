@@ -7,6 +7,7 @@ related_posts: false
 ---
 
 Every Flavor has challenged me as a leader, communicator, and manager. It's now time for me to return to being technical on the frontier of robot learning.
+
 ---
 
 As a company, Every Flavor Robotics set out to accelerate the pace of robotic innovation by producing high-quality open-source robotics tooling and educational content. Personally, my mission was twofold. First, I aimed to learn how to lead a team in converting a simple idea into a healthy, growing business. Secondly, I wanted to learn the engineering skills required to push technology past prototypes into consumer-ready products and progressively expand the frontier of the technology that was accessible to us and our customers. Despite the overwhelming advice and evidence pointing in the other direction, I expected to spend 80% of my time on the engineering and 20% on leadership and management. Maybe it's my own hubris or naivety, but it takes experiencing the visceral pain of some lessons before I understand them truly.
