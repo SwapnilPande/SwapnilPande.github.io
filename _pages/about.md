@@ -35,4 +35,7 @@ I received my master's degree in robotics at Carnegie Mellon University, researc
 
 Let's chat! Shoot me an email at: me [at] swapnilpande [dot] com
 
-[Resume]((/assets/pdf/swapnil_pande_resume.pdf)) | [LinkedIn](https://www.linkedin.com/in/swapnilpande/) | [Github](https://github.com/SwapnilPande) | [Every Flavor of Robot](https://www.youtube.com/@EveryFlavorRobot)
+[Resume](/assets/pdf/swapnil_pande_resume.pdf) | [LinkedIn](https://www.linkedin.com/in/swapnilpande/) | [Github](https://github.com/SwapnilPande) | [Every Flavor of Robot](https://www.youtube.com/@EveryFlavorRobot)
+
+
+---
