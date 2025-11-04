@@ -34,3 +34,5 @@ I was the founder and CEO of Every Flavor Robotics, where we worked on developin
 I received my master's degree in robotics at Carnegie Mellon University, researching at the <a href="https://autonlab.org/">Auton Lab</a> under the guidance of <a href="https://www.cs.cmu.edu/~schneide/">Jeff Schneider</a> and in collaboration with Argo AI. I studied methods for learning effective decision-making for autonomous vehicles from fully offline datasets and experimented with deploying these algorithms on Argo AI's driving stack. Before that, I spent 4 years at Vanderbilt University studying mechanical and computer engineering, with a strong focus on learning to build full-stack robotic systems.
 
 Let's chat! Shoot me an email at: me [at] swapnilpande [dot] com
+
+[Resume]((/assets/pdf/swapnil_pande_resume.pdf)) | [LinkedIn](https://www.linkedin.com/in/swapnilpande/) | [Github](https://github.com/SwapnilPande) | [Every Flavor of Robot](https://www.youtube.com/@EveryFlavorRobot)
